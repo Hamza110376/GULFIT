@@ -16,10 +16,10 @@ body {
 
   /* Colors */
   --color-white: #fff;
+  --color-whitesmoke: #f9f8f8;
+  --color-darkorange: #f89939;
   --color-dimgray-100: #545454;
-  --color-teal-100: #026670;
-  --color-gray: #151112;
-  --color-darkslategray-100: #393536;
+  --color-teal: #026670;
 
   /* Border radiuses */
   --br-7xs: 6px;

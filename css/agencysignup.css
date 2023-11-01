@@ -1,0 +1,351 @@
+.sign-up-agency-2-child {
+  position: absolute;
+  top: 160px;
+  left: 594px;
+  border-radius: 11px;
+  background-color: var(--color-teal);
+  border: 1px solid var(--color-teal);
+  box-sizing: border-box;
+  width: 733px;
+  height: 804px;
+}
+.sign-up-agency-2-item {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: var(--color-white);
+  border: 1px solid #707070;
+  box-sizing: border-box;
+  width: 1920px;
+  height: 113px;
+}
+.group-child {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 222px;
+  height: 57.04px;
+}
+.it-hub {
+  margin: 0;
+  position: absolute;
+  top: 57.47px;
+  left: 165.36px;
+  font-size: inherit;
+  line-height: 21px;
+  font-weight: 400;
+  font-family: inherit;
+}
+.group-parent {
+  position: absolute;
+  top: 30px;
+  left: 150px;
+  width: 222px;
+  height: 78.47px;
+  text-align: left;
+  font-size: var(--font-size-lg);
+  color: #2e2e2e;
+  font-family: var(--font-inter);
+}
+.sign-up-to {
+  margin: 0;
+  position: absolute;
+  top: 201px;
+  left: 766.64px;
+  font-size: 30px;
+  font-weight: 700;
+  font-family: inherit;
+}
+.already-have-an-container {
+  margin: 0;
+  position: absolute;
+  top: 885px;
+  left: 817px;
+  font-size: var(--font-size-lg);
+  display: inline-block;
+  width: 286px;
+  height: 26px;
+}
+.apply-as-a {
+  color: var(--color-teal);
+}
+.looking-for-an-container {
+  margin: 0;
+  position: absolute;
+  top: 30px;
+  left: 1451px;
+  font-size: var(--font-size-lg);
+  text-align: left;
+  display: inline-block;
+  width: 319px;
+  height: 26px;
+  color: #151112;
+}
+.component-3-10-child {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: var(--br-7xs);
+  background-color: var(--color-darkorange);
+}
+.component-3-10 {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  top: 830px;
+  left: 710px;
+  width: 500px;
+  height: 45px;
+}
+.rectangle-button,
+.rectangle-input,
+.sign-up-agency-2-child1,
+.sign-up-agency-2-inner {
+  border: 1px solid var(--color-white);
+  position: absolute;
+  left: 710px;
+  border-radius: var(--br-7xs);
+  box-sizing: border-box;
+  height: 45px;
+}
+.sign-up-agency-2-inner {
+  cursor: pointer;
+  padding: 0;
+  background-color: rgba(255, 255, 255, 0.23);
+  top: 305px;
+  width: 500px;
+}
+.rectangle-button,
+.rectangle-input,
+.sign-up-agency-2-child1 {
+  background-color: transparent;
+  top: 501px;
+  width: 236px;
+}
+.rectangle-button,
+.sign-up-agency-2-child1 {
+  left: 976px;
+  width: 234px;
+}
+.rectangle-button {
+  cursor: pointer;
+  padding: 0;
+  top: 365px;
+  left: 710px;
+  width: 500px;
+}
+.sign-up-agency-2-child2 {
+  background-color: transparent;
+  top: 566px;
+  left: 710px;
+  width: 236px;
+}
+.rectangle-ul,
+.sign-up-agency-2-child2,
+.sign-up-agency-2-child3 {
+  border: 1px solid var(--color-white);
+  position: absolute;
+  border-radius: var(--br-7xs);
+  box-sizing: border-box;
+  height: 45px;
+}
+.rectangle-ul {
+  margin: 0;
+  top: 631px;
+  left: 710px;
+  width: 502px;
+}
+.sign-up-agency-2-child3 {
+  background-color: transparent;
+  top: 566px;
+  left: 976px;
+  width: 236px;
+}
+.create-my-account {
+  margin: 0;
+}
+.create-my-account-container {
+  text-decoration: none;
+  position: absolute;
+  top: 839px;
+  left: 868px;
+  font-size: 22px;
+  font-weight: 700;
+  color: inherit;
+  text-align: left;
+  display: inline-block;
+  width: 185px;
+  height: 27px;
+}
+.continue-with-apple,
+.continue-with-google {
+  text-decoration: none;
+  left: 847px;
+  font-size: var(--font-size-xl);
+  color: inherit;
+  width: 226px;
+  height: 24px;
+}
+.continue-with-google {
+  position: absolute;
+  top: 316px;
+  display: inline-block;
+}
+.continue-with-apple {
+  top: 376px;
+}
+.continue-with-apple,
+.first-name,
+.or {
+  position: absolute;
+  display: inline-block;
+}
+.or {
+  top: 437px;
+  left: 949px;
+  font-size: var(--font-size-xl);
+  width: 22px;
+  height: 24px;
+}
+.first-name {
+  top: 514px;
+  left: 710px;
+  height: 20px;
+}
+.first-name,
+.last-name,
+.password {
+  color: var(--color-whitesmoke);
+  width: 94px;
+}
+.last-name {
+  position: absolute;
+  top: 514px;
+  left: 976px;
+  display: inline-block;
+  height: 20px;
+}
+.password {
+  top: 579px;
+  left: 974px;
+}
+.password,
+.send-me-the,
+.work-email-address {
+  position: absolute;
+  display: inline-block;
+  height: 20px;
+}
+.work-email-address {
+  top: 579px;
+  left: 716px;
+  color: var(--color-whitesmoke);
+  width: 149px;
+}
+.send-me-the {
+  margin: 0;
+  top: 723px;
+  left: 726px;
+  font-size: var(--font-size-xs);
+  width: 366px;
+}
+.span {
+  color: var(--color-dimgray-100);
+}
+.gulf-it-hub {
+  color: var(--color-darkorange);
+}
+.span2 {
+  color: #94004a;
+}
+.oman,
+.yes-i-understand-container {
+  position: absolute;
+  display: inline-block;
+}
+.yes-i-understand-container {
+  margin: 0;
+  top: 754px;
+  left: 728px;
+  font-size: var(--font-size-xs);
+  text-align: left;
+  width: 500px;
+  height: 30px;
+}
+.oman {
+  top: 644px;
+  left: 716px;
+  color: var(--color-whitesmoke);
+  width: 53px;
+  height: 20px;
+}
+.icon-awesome-google {
+  position: absolute;
+  top: 313.77px;
+  left: 821px;
+  width: 28px;
+  height: 28.46px;
+}
+.icon-awesome-apple {
+  position: absolute;
+  top: 371.75px;
+  left: 821.77px;
+  width: 26.47px;
+  height: 31.49px;
+}
+.line-div,
+.sign-up-agency-2-child4 {
+  position: absolute;
+  top: 452px;
+  left: 710px;
+  border-top: 1px solid var(--color-white);
+  box-sizing: border-box;
+  width: 236px;
+  height: 1px;
+}
+.sign-up-agency-2-child4 {
+  left: 975px;
+  width: 235.5px;
+}
+.icon-ionic-md-eye-off {
+  position: absolute;
+  top: 584.24px;
+  left: 1188px;
+  width: 11.11px;
+  height: 9.52px;
+}
+.icon-ionic-ios-arrow-down {
+  position: absolute;
+  top: 653.5px;
+  left: 1169.94px;
+  width: 12.68px;
+  height: 7.25px;
+}
+.icon-material-check-box,
+.icon-material-check-box-outlin {
+  position: absolute;
+  top: 726px;
+  left: 710px;
+  width: 10.45px;
+  height: 10.45px;
+}
+.icon-material-check-box {
+  top: 757px;
+}
+.sign-up-agency-2 {
+  position: relative;
+  background-color: var(--color-white);
+  width: 100%;
+  height: 1352px;
+  overflow: hidden;
+  text-align: center;
+  font-size: var(--font-size-base);
+  color: var(--color-white);
+  font-family: var(--font-lato);
+}
