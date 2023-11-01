@@ -5,22 +5,21 @@ body {
 
 :root {
   /* fonts */
-  --font-inter: Inter;
   --font-lato: Lato;
-  --font-lora: Lora;
+  --font-inter: Inter;
 
   /* font sizes */
-  --font-size-lg: 18px;
   --font-size-base: 16px;
   --font-size-xs: 12px;
   --font-size-xl: 20px;
+  --font-size-lg: 18px;
 
   /* Colors */
   --color-white: #fff;
-  --color-darkslategray-100: #393536;
   --color-dimgray-100: #545454;
-  --color-darkorange-100: #f89939;
+  --color-teal-100: #026670;
   --color-gray: #151112;
+  --color-darkslategray-100: #393536;
 
   /* Border radiuses */
   --br-7xs: 6px;
