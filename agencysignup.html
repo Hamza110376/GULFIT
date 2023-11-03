@@ -1,128 +1,44 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="initial-scale=1, width=device-width" />
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <link rel="stylesheet" href="./css/agencysignup.css" />
 
-    <link rel="stylesheet" href="./globalcss/globalagencysignup.css" />
-    <link rel="stylesheet" href="./css/agencysignup.css" />
-    <link
-      rel="stylesheet"
-      href="https://fonts.googleapis.com/css2?family=Inter:wght@400&display=swap"
-    />
-    <link
-      rel="stylesheet"
-      href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap"
-    />
-  </head>
-  <body>
-    <div class="sign-up-agency-2" id="main">
-      <section class="sign-up-agency-2-child" id="Form"></section>
-      <header class="sign-up-agency-2-item" id="Navbar"></header>
-      <div class="group-parent">
-        <img
-          class="group-child"
-          id="logo"
-          alt=""
-          src="./public/group-112.svg"
-        />
-
-        <h4 class="it-hub">IT hub</h4>
-      </div>
-      <h2 class="sign-up-to">Sign up to find work you love</h2>
-      <p class="already-have-an-container">
-        <span>Already have an account? </span>
-        <b>Log In</b>
-      </p>
-      <p class="looking-for-an-container">
-        <span>Looking for an agency? </span>
-        <b class="apply-as-a">Apply as a Client</b>
-      </p>
-      <button class="component-3-10" id="create account">
-        <div class="component-3-10-child"></div>
-      </button>
-      <button class="sign-up-agency-2-inner" id="google signup"></button>
-      <input class="rectangle-input" placeholder="First name" type="text" />
-
-      <input
-        class="sign-up-agency-2-child1"
-        placeholder="Last name"
-        type="text"
-      />
-
-      <button class="rectangle-button" id="Apple signup"></button>
-      <input
-        class="sign-up-agency-2-child2"
-        placeholder="Work email address"
-        type="email"
-      />
-
-      <ul class="rectangle-ul" id="countries"></ul>
-      <input
-        class="sign-up-agency-2-child3"
-        placeholder="Password"
-        type="text"
-      />
-
-      <a class="create-my-account-container" href="#">
-        <p class="create-my-account">Create my account</p>
-      </a>
-      <a class="continue-with-google" href="#">Continue with Google</a>
-      <a class="continue-with-apple" href="#">Continue with Apple</a>
-      <div class="or">or</div>
-      <p class="send-me-the">
-        Send me the emails with tips on how to find talent that fits my needs.
-      </p>
-      <p class="yes-i-understand-container">
-        <span>Yes, I understand and agree to the</span>
-        <span class="span"> </span>
-        <span class="gulf-it-hub">Gulf IT Hub Terms of Services</span>
-        <span>, including the</span>
-        <span class="span"> </span>
-        <span class="gulf-it-hub">User Agreement</span>
-        <span class="span2"> </span>
-        <span>and</span>
-        <span class="span"> </span>
-        <span class="gulf-it-hub">Privacy Policy.</span>
-      </p>
-      <div class="oman">Oman</div>
-      <img
-        class="icon-awesome-google"
-        alt=""
-        src="./public/icon-awesomegoogle.svg"
-      />
-
-      <img
-        class="icon-awesome-apple"
-        alt=""
-        src="./public/icon-awesomeapple.svg"
-      />
-
-      <div class="line-div"></div>
-      <div class="sign-up-agency-2-child4"></div>
-      <img
-        class="icon-ionic-md-eye-off"
-        alt=""
-        src="./public/icon-ionicmdeyeoff.svg"
-      />
-
-      <img
-        class="icon-ionic-ios-arrow-down"
-        alt=""
-        src="./public/icon-ioniciosarrowdown.svg"
-      />
-
-      <img
-        class="icon-material-check-box-outlin"
-        alt=""
-        src="./public/icon-materialcheckboxoutlineblank.svg"
-      />
-
-      <img
-        class="icon-material-check-box"
-        alt=""
-        src="./public/icon-materialcheckbox.svg"
-      />
+  <title>Document</title>
+</head>
+<body>
+  <div class="main">
+<nav class="navbar">
+<img class="logo" src="public/group-112.svg" alt="">
+<h4> IT hub</h4>
+<p class="Lookingforagency">Looking for an agency? 
+ <span class="applyasclient" > <a href="#">Apply as a Client</a></p></span>
+</nav><hr/>
+<div class="content">
+  <div class="form">
+  <h1 class="signup">Sign up to find work you love</h1>
+  <div class="button">
+  <button class="Google"><a>Continue with Google</a></button>
+    <button class="Apple"><a>Continue with Apple</a></button>
     </div>
-  </body>
+    
+   <div class="inputs">
+<input type="text" placeholder="First name">
+<input type="text" placeholder="Last Name">
+<input type="Email" placeholder="Work email address">
+<input type="password" placeholder="Password">
+</div>
+<div>
+
+<p><span><input type="checkbox" id="vehicle3" name="vehicle3" value="Boat"></span> me the emails with tips on how to find talent that fits my needs.</p>
+<p><span><input type="checkbox" id="vehicle3" name="vehicle3" value="Boat"></span> Yes, I understand and agree to the <span><a href="#">GULF IT Hub Terms of Services</a></span>, including the <span><a href="#">User Agreement and Privacy Policy</a></span>.</p>
+
+</div>
+<button><a href="#">Create my account</a></button>
+<p>Already have an account?<a href="#"> Log In</a> </p>
+</div>
+</div>
+</div>
+</body>
 </html>

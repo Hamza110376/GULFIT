@@ -394,3 +394,26 @@
   color: #edeae5;
   font-family: var(--font-lato);
 }
+
+@media (max-width:600px) {
+.group-child {
+    top: 0;
+    left: 0;
+    border-radius: 11px;
+    border: 1px solid var(--color-darkorange-100);
+    box-sizing: border-box;
+    align-items: center;
+    justify-content: center;
+    width: 400px;
+    height: 600px;
+  }
+    .sign-up-to {
+      position: absolute;
+      top: 41px;
+      left: 206.41px;
+      font-size: 30px;
+      align-items: center;
+        justify-content: center;
+      color: var(--color-gray);
+    }
+}
