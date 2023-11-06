@@ -1,0 +1,378 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;400&family=Lora:wght@500&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: Lato;
+    scroll-behavior: smooth;
+    background-color: #fff;
+    overflow: hidden;
+}
+
+.main {
+    width: 100vw;
+    height: 100vh;
+    background-color: #fff;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.left {
+    background-color: #FFF;
+}
+
+.logo {
+    padding-top: 4vh;
+    padding-left: 6vw;
+}
+
+.logo2 {
+    width: 11vw;
+    height: 7vh;
+    flex-shrink: 0;
+}
+
+.h4 {
+    margin-left: 7.5vw;
+    color: #2E2E2E;
+
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 21px;
+    /* 116.667% */
+}
+
+.agencyform {
+    width: 50vw;
+    height: 100vh;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    padding-bottom: 15vh;
+    gap: 20px;
+    overflow: hidden;
+
+}
+
+.forms {
+    width: 733px;
+    height: 804px;
+    flex-shrink: 0;
+    border-radius: 11px;
+    border: 1px solid #F89939;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 2vh;
+    overflow: hidden;
+}
+
+.signup {
+    color: #151112;
+
+    text-align: center;
+    font-family: Lato;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+
+}
+
+.Google {
+    width: 500px;
+    height: 45px;
+    flex-shrink: 0;
+    border-radius: 6px;
+    border: 1px solid #F89939;
+    background: rgba(248, 153, 57, 0.18);
+
+}
+
+.googlebtn {
+    width: 226px;
+    height: 24px;
+    flex-shrink: 0;
+    color: #151112;
+    text-align: center;
+    font-family: Lato;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-decoration: none;
+}
+
+.Apple {
+    width: 500px;
+    height: 45px;
+    flex-shrink: 0;
+    border-radius: 6px;
+    border: 1px solid #F89939;
+}
+
+.applebtn {
+    width: 226px;
+    height: 24px;
+    flex-shrink: 0;
+    color: #151112;
+    text-align: center;
+    font-family: Lato;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-decoration: none;
+}
+
+.inputs1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 1vw;
+}
+
+.firstname {
+    width: 236px;
+    height: 45px;
+    flex-shrink: 0;
+    border-radius: 6px;
+    border: 1px solid #393536;
+
+}
+
+.lastname {
+    width: 236px;
+    height: 45px;
+    flex-shrink: 0;
+    border-radius: 6px;
+    border: 1px solid #393536;
+}
+
+.email {
+    width: 236px;
+    height: 45px;
+    flex-shrink: 0;
+    border-radius: 6px;
+    border: 1px solid #393536;
+
+}
+
+.password {
+    width: 236px;
+    height: 45px;
+    flex-shrink: 0;
+    border-radius: 6px;
+    border: 1px solid #393536;
+
+}
+
+::placeholder {
+    padding: 5px;
+    width: 94px;
+    height: 20px;
+    flex-shrink: 0;
+    color: #545454;
+    text-align: center;
+    font-family: Lato;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.aggrement {
+    display: flex;
+    flex-direction: column;
+    width: 21vw;
+    gap: 1vh;
+}
+
+.tips {
+
+    flex-shrink: 0;
+    color: #545454;
+    text-align: center;
+    font-family: Lato;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.terms {
+
+    flex-shrink: 0;
+    color: #545454;
+    font-family: Lato;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.amazed {
+
+    color: #F89939;
+    font-family: Lato;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-decoration: none;
+}
+
+.btnclass {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center0;
+    gap: 1vh;
+}
+
+.createaccount {
+    width: 500px;
+    height: 45px;
+    flex-shrink: 0;
+    border-radius: 6px;
+    border-color: #F89939;
+    background: #F89939;
+}
+
+.btnclass2 {
+    width: 185px;
+    height: 27px;
+    flex-shrink: 0;
+    color: #FFF;
+    font-family: Lato;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-decoration: none;
+}
+
+.alreadyaccount {
+
+    width: 286px;
+    height: 26px;
+    flex-shrink: 0;
+    color: #151112;
+    text-align: center;
+    font-family: Lato;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-decoration: none;
+}
+.right {}
+
+.nav {
+    background-color: #151112;
+    height: 0vh;
+    display: flex;
+    justify-content: space-between;
+}
+
+.ideas {
+    width: 50vw;
+    height: 100vh;
+    background: #026670;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 15px;
+}
+
+
+
+.idea {
+
+    width: 100vw;
+    height: 5vh;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.image {}
+
+.coded-stuff-screen {
+    width: 476px;
+    height: 305px;
+    flex-shrink: 0;
+}
+
+.cart {
+    width: 329px;
+    height: 365px;
+    flex-shrink: 0;
+
+}
+
+.textbox {
+    width: 15vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.turnideas {
+    color: #EDEAE5;
+
+    text-align: center;
+    font-family: Lora;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+
+}
+
+
+.Lorem {
+    width: 407px;
+    height: 48px;
+    flex-shrink: 0;
+    color: #FFF;
+
+    text-align: center;
+    font-family: Lato;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: capitalize;
+}
+
+.right {}
+
+.nav {
+    background-color: #151112;
+    height: 0vh;
+    display: flex;
+    justify-content: flex-end;
+}
+
+footer {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    background-color: #FFF;
+}
