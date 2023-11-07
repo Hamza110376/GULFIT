@@ -196,7 +196,7 @@ html {
 .aggrement {
     display: flex;
     flex-direction: column;
-    width: 21vw;
+    width: 18vw;
     gap: 1vh;
 }
 
