@@ -131,7 +131,27 @@ h2{
         line-height: normal;
 }
 
-.right {}
+.budget{
+    width: 10vw;
+    height: 5vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 5vw;
+}
+.title{
+    width: 101px;
+        height: 25px;
+        flex-shrink: 0;
+        color: #151112;
+    
+        font-family: Lato;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+}
 
 .nav {
     background-color: #151112;
@@ -212,6 +232,26 @@ h2{
     font-weight: 400;
     line-height: normal;
     text-transform: capitalize;
+}
+.postproject{
+    width: 500px;
+        height: 59px;
+        flex-shrink: 0;
+        border-radius: 6px;
+        background: #561D2E;
+}
+.project1{
+    width: 122px;
+        height: 27px;
+        flex-shrink: 0;
+        color: #FFF;
+    
+        font-family: Lato;
+        font-size: 22px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        text-decoration: none;
 }
 
 .right {}
@@ -376,4 +416,49 @@ input:checked+label::before {
 
 #search:focus {
     outline: 0.5mm solid rgba(0, 0, 0, 0.35);
+}
+
+
+/* Style the dropdown container */
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+/* Style the dropdown button */
+.dropbtn {
+    background-color: #3498db;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+/* Style the dropdown content (hidden by default) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+/* Style the dropdown links */
+.dropdown-content a {
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    color: black;
+}
+
+/* Change color on hover */
+.dropdown-content a:hover {
+    background-color: #3498db;
+    color: white;
+}
+
+/* Show the dropdown content when the button is hovered over */
+.dropdown:hover .dropdown-content {
+    display: block;
 }

@@ -1,0 +1,278 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;400&family=Lora:wght@500&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 10px;
+    font-family: 'Montserrat', sans-serif;
+    scroll-behavior: smooth;
+}
+
+a {
+    text-decoration: none;
+}
+.main{
+            width: 100%;
+            height: 100%;
+            background-color: #fff;
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            overflow: scroll;
+     
+}
+nav{
+background-color: #fff;
+width: 100vw;
+height: 13vh;
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding:  2vw;
+}
+.navlinks{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 2vw;
+}
+.h4 {
+    margin-left: 7.5vw;
+    color: #2E2E2E;
+
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 21px;
+    /* 116.667% */
+}
+.links{
+    color: #151112;
+    
+        font-family: Lato;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        text-decoration: none;
+}
+.postproject{
+    width: 157px;
+        height: 47px;
+        flex-shrink: 0;
+        background: #009F3E;
+        border: none;
+}
+.btn1{
+    color: #F9F8F8;
+    
+        font-family: Lato;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+}
+.button{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 1vw;
+}
+.login{
+    color: #151112;
+    
+        font-family: Lato;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+}
+.signup{
+width: 89px;
+    height: 47px;
+    flex-shrink: 0;
+    background: #94004A;
+    border: none;
+}
+.btn2{
+    color: #F9F8F8;
+    
+        font-family: Lato;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        text-decoration: none;
+}
+.content{
+    width: 100vw;
+    height: 160vh;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    overflow: hidden;
+    
+}
+.form{
+    flex-shrink: 0;
+    width: 58vw;
+        height: 155vh;
+    background: #fff;
+        box-shadow: 0px 3px 3px 0px rgba(0, 0, 0, 0.16);
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+    gap: 5vh;
+    overflow: hidden;
+    padding: 1vw;
+}
+.heading{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 1vh;
+}
+.Agencyname{
+    width: 1143px;
+        height: 81px;
+        flex-shrink: 0;
+        color: #151112;
+    
+        font-family: Lora;
+        font-size: 60px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+}
+.yourservices{
+    width: 651px;
+        height: 30px;
+        flex-shrink: 0;
+        color: #151112;
+    
+        font-family: Lato;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+}
+h3{
+    width: 20vw;
+        height: 51px;
+        flex-shrink: 0;
+        color: #151112;
+    
+        font-family: Lora;
+        font-size: 28px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+}
+#fileupload{
+    width: 628px;
+        height: 185px;
+        flex-shrink: 0;
+        border-radius: 5px;
+            border: 1px dashed #151112;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+}
+.fileupload{
+    width: auto;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 1vh;
+    background-color: #fff;
+}
+.headline{
+    width: 53vw;
+        height: 5vh;
+        flex-shrink: 0;
+        border-radius: 6px;
+        border: 1px solid #151112;
+        color: #151112;
+            padding: 1vw;
+        
+            font-family: Lato;
+            font-size: 18px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+}
+::placeholder{
+    width: 286px;
+        height: 22px;
+        flex-shrink: 0;
+        color: #B8B8B8;
+        
+    
+        font-family: Lato;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        display: flex;
+            justify-content: flex-start;
+            align-items: flex-start;
+}
+.aboutcompany{
+width: 1225px;
+    height: 279px;
+    flex-shrink: 0;
+    border-radius: 6px;
+    border: 1px solid #151112;
+    color: #151112;
+    padding: 1vw;
+    text-align: start;
+
+    font-family: Lato;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.submit{
+    width: 500px;
+        height: 82px;
+        flex-shrink: 0;
+        border-radius: 6px;
+        background: #026670;
+}
+.application{
+    width: 189px;
+        height: 27px;
+        flex-shrink: 0;
+         color: #FFF;
+    
+        font-family: Lato;
+        font-size: 22px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        text-decoration: none;
+}
+footer{
+    width: 100vw;
+    height: 50vh;
+    margin-top: 10vh;
+    background-color: #026670;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
