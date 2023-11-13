@@ -69,7 +69,8 @@ html {
     height: 804px;
     flex-shrink: 0;
     border-radius: 11px;
-    border: 1px solid #F89939;
+    border: 1px solid ;
+    border-color: #026670;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -95,7 +96,8 @@ html {
     height: 45px;
     flex-shrink: 0;
     border-radius: 6px;
-    border: 1px solid #F89939;
+    border: 1px solid;
+    border-color: #026670;
     background: rgba(248, 153, 57, 0.18);
 
 }
@@ -119,7 +121,7 @@ html {
     height: 45px;
     flex-shrink: 0;
     border-radius: 6px;
-    border: 1px solid #F89939;
+    border: 1px solid #026670;
 }
 
 .applebtn {
@@ -225,7 +227,7 @@ html {
 
 .amazed {
 
-    color: #F89939;
+    color: #026670;
     font-family: Lato;
     font-size: 15px;
     font-style: normal;
@@ -247,8 +249,8 @@ html {
     height: 45px;
     flex-shrink: 0;
     border-radius: 6px;
-    border-color: #F89939;
-    background: #F89939;
+    border-color: #026670;
+    background: #026670;
 }
 
 .btnclass2 {
@@ -523,4 +525,151 @@ input:checked+label::before {
 
 #search:focus {
     outline: 0.5mm solid rgba(0, 0, 0, 0.35);
+}
+
+
+
+/*@media (max-width: 3182px) */
+
+@media (max-width: 3182px) {
+    .aggrement {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+        width: 16vw;
+        gap: 1vh;
+    }
+}
+
+/*@media (max-width: 1920px) */
+
+@media (max-width: 1920px) {
+    .aggrement {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+        width: 40vw;
+        gap: 1vh;
+    }
+}
+
+/*@media (max-width: 1700px) */
+
+@media (max-width: 1700px) {
+    .aggrement {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+        width: 30vw;
+        gap: 1vh;
+    }
+}
+
+/*@media (max-width: 1420px) */
+
+@media (max-width: 1420px) {
+    .aggrement {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+        width: 30vw;
+        gap: 1vh;
+    }
+
+    .forms {
+        width: 633px;
+        height: 804px;
+    }
+
+    .logo2 {
+        width: 16vw;
+    }
+
+}
+
+/*@media (max-width: 1280px) */
+
+@media (max-width: 1280px) {
+    .aggrement {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+        width: 40vw;
+        gap: 1vh;
+    }
+
+    .forms {
+        width: 583px;
+        height: 804px;
+    }
+
+    .logo2 {
+        width: 16vw;
+    }
+
+}
+
+/*@media (max-width: 1024px) */
+
+@media (max-width: 1024px) {
+    .forms {
+        width: 583px;
+        height: 904px;
+    }
+
+    .logo2 {
+        width: 20vw;
+    }
+
+}
+
+
+/*@media (max-width: 1176px) */
+@media (max-width: 1176px) {
+    .textbox {
+        width: 25vw;
+    }
+
+    .forms {
+        width: 583px;
+        height: 904px;
+        border: none;
+    }
+
+    .logo2 {
+        width: 20vw;
+    }
+
+}
+
+/*@media (max-width:  1011px) */
+@media (max-width: 1011px) {
+    .main {
+        width: 100vw;
+        height: 100vh;
+        background-color: #fff;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
+    .right {
+        display: none;
+    }
+
+    .forms {
+        width: 583px;
+        height: 904px;
+        border: none;
+    }
+
+    .logo2 {
+        width: 20vw;
+    }
+
 }
